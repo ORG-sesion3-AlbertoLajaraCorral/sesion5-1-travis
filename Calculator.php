@@ -18,7 +18,7 @@ class Calculator
     }
 	
 	
-	function esPar($numero) {
+	public function esPar($numero): string {
 		if($numero % 2 == 0)
 		{
 			return "par";

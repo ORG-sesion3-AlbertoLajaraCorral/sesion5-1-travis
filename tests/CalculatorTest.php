@@ -36,10 +36,21 @@ class CalculatorTest extends TestCase
 	
 	public function testEsPar(): void
 	{
-		$this->assertEquals("par", esPar(4));
-		$this->assertEquals("impar", esPar(7));
-		$this->assertEquals("par", esPar(0));
-		$this->assertEquals("impar", esPar(-3));
+		//primera prueba
+		$result = $this->calculator->esPar(4);
+		$this->assertEquals("par", $result);
+		
+		//segunda prueba
+		$result = $this->calculator->esPar(96);
+		$this->assertEquals("par", $result);
+		
+		//tercera prueba
+		$result = $this->calculator->esPar(15);
+		$this->assertEquals("impar", $result);
+		
+		//cuarta prueba
+		$result = $this->calculator->esPar(1);
+		$this->assertEquals("impar", $result);
 	}
  
 }
