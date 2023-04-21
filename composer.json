@@ -1,0 +1,14 @@
+{
+    "name": "calculator",
+    "description": "Mi paquete para manejar imágenes en PHP",
+    "require": {
+        "php": "^8.2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0.0"
+    },
+    "license": "MIT",
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
