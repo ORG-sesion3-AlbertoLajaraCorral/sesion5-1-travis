@@ -1,5 +1,5 @@
 {
-    "name": "archivo-prueba",
+    "name": "archivoprueba/miproyecto",
     "description": "Mi paquete para manejar imágenes en PHP",
     "require": {
         "php": "^8.2.5"
