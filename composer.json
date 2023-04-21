@@ -1,5 +1,5 @@
 {
-    "name": "calculator",
+    "name": "albertolajara/calculator",
     "description": "Mi paquete para manejar imágenes en PHP",
     "require": {
         "php": "^8.2.5"
