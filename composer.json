@@ -2,7 +2,7 @@
     "name": "albertolajara/calculator",
     "description": "Mi paquete para manejar imágenes en PHP",
     "require": {
-        "php": "^8.2.5"
+        "php": "^8.2.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0.0"
