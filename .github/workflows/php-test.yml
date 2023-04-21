@@ -16,8 +16,8 @@ jobs:
         php-version: '8.2.5'
         extensions: mbstring, zip, pdo_mysql # Opcional
 
-    - name: Install dependencies
-      run: composer install
+    - name: Install dependencies and update
+      run: composer install 
 
     - name: Run PHPUnit tests
       run: vendor/bin/phpunit tests/
