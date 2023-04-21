@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "614b8db3bf75d5579d24692a78fe69cd",
+    "content-hash": "d42c69cf2f78a8c5f201632aeda8eb28",
     "packages": [],
     "packages-dev": [
         {
@@ -22,7 +22,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": "^8.1"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^11",
@@ -92,7 +92,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": "^7.1 || ^8.0"
             },
             "conflict": {
                 "doctrine/collections": "<1.6.8",
@@ -211,7 +211,7 @@
                 "ext-phar": "*",
                 "ext-xmlwriter": "*",
                 "phar-io/version": "^3.0.1",
-                "php": ">=7.3"
+                "php": "^7.2 || ^8.0"
             },
             "type": "library",
             "extra": {
@@ -267,7 +267,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": "^7.2 || ^8.0"
             },
             "type": "library",
             "autoload": {
@@ -1706,7 +1706,7 @@
                 "ext-dom": "*",
                 "ext-tokenizer": "*",
                 "ext-xmlwriter": "*",
-                "php": ">=7.3"
+                "php": "^7.2 || ^8.0"
             },
             "type": "library",
             "autoload": {
@@ -1745,7 +1745,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.2.5"
+        "php": "^8.1.2"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
